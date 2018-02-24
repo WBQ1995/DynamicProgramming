@@ -8,7 +8,7 @@
 
 #include <iostream>
 using namespace std;
-int Knapsack_infinitely(int capacity,int w[],int value[]);
+int Knapsack_infinitely(int capacity,int weight[],int value[]);
 
 int main(int argc, const char * argv[]) {
     
