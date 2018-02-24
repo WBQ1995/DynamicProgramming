@@ -1,5 +1,5 @@
 //
-//  Knapsack-01.cpp
+//  Knapsack-infinitely.cpp
 //  DynamicProgramming
 //
 //  Created by PRO on 2018-02-24.
@@ -8,7 +8,7 @@
 
 #include <iostream>
 using namespace std;
-int Knapsack01(int capacity,int w[],int value[]);
+int Knapsack_infinitely(int capacity,int w[],int value[]);
 
 int main(int argc, const char * argv[]) {
     
@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
     int weight[2] = {5,3};
     int value[2] = {3,2};
     
-    int total = Knapsack01(capacity,weight,value);
+    int total = Knapsack_infinitely(capacity,weight,value);
     
     cout<<"Maximum total vale is: "<<total<<endl;
     cout<<endl;
@@ -24,7 +24,7 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-int Knapsack01(int capacity,int weight[],int value[]){
+int Knapsack_infinitely(int capacity,int weight[],int value[]){
     
     int w[capacity + 1];
     int chose[capacity + 1];
