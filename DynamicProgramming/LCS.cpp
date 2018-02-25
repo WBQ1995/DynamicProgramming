@@ -25,6 +25,7 @@ int main(int argc, const char * argv[]) {
     int LCS = LCS_Length(X,Y,lengthX,lengthY);
     cout<<LCS<<endl;
     
+    return 0;
 }
 
 int LCS_Length(char X[],char Y[],int lengthX,int lengthY){
@@ -37,9 +38,7 @@ int LCS_Length(char X[],char Y[],int lengthX,int lengthY){
     for(int i = 0; i < lengthX;i ++){
         c[i][0] = 0;
     }
-    
-    //int b[lengthX + 1][lengthY + 1];
-    
+
     vector<vector<int>> b(lengthX + 1);
     for(int i = 0; i <= lengthX; i ++){
         b[i].resize(lengthY + 1);
