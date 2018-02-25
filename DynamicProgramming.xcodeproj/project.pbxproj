@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76A743E3204201DC005B4536 /* Knapsack-01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A743E1204201DC005B4536 /* Knapsack-01.cpp */; };
+		76FDBB0220425E3400B8B515 /* LCS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76FDBB0020425E3400B8B515 /* LCS.cpp */; };
+		76FDBB0420427ACD00B8B515 /* Knapsack-01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76FDBB0320427ACD00B8B515 /* Knapsack-01.cpp */; };
+		76FDBB0620427AD200B8B515 /* Knapsack-infinitely.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76FDBB0520427AD200B8B515 /* Knapsack-infinitely.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		76A743D72041D3FD005B4536 /* DynamicProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynamicProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
-		76A743E1204201DC005B4536 /* Knapsack-01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Knapsack-01.cpp"; sourceTree = "<group>"; };
+		76FDBB0020425E3400B8B515 /* LCS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LCS.cpp; sourceTree = "<group>"; };
+		76FDBB0320427ACD00B8B515 /* Knapsack-01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Knapsack-01.cpp"; sourceTree = "<group>"; };
+		76FDBB0520427AD200B8B515 /* Knapsack-infinitely.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Knapsack-infinitely.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		76A743D92041D3FD005B4536 /* DynamicProgramming */ = {
 			isa = PBXGroup;
 			children = (
-				76A743E1204201DC005B4536 /* Knapsack-01.cpp */,
+				76FDBB0520427AD200B8B515 /* Knapsack-infinitely.cpp */,
+				76FDBB0320427ACD00B8B515 /* Knapsack-01.cpp */,
+				76FDBB0020425E3400B8B515 /* LCS.cpp */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76A743E3204201DC005B4536 /* Knapsack-01.cpp in Sources */,
+				76FDBB0420427ACD00B8B515 /* Knapsack-01.cpp in Sources */,
+				76FDBB0620427AD200B8B515 /* Knapsack-infinitely.cpp in Sources */,
+				76FDBB0220425E3400B8B515 /* LCS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
